@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #0056b3;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      margin-top: 0;
+      font-weight: bold;
+      color: #007bff;
+    }
+    p {
+      line-height: 1.6;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    textarea {
+      resize: vertical;
+      height: 150px;
+    }
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+  </header>
+  <div class="container">
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>Welcome to my website! I'm Sahibjeet Singh, the creator of this site. I'm passionate about web development and creating engaging online experiences. Currently i am doing my diploma of Computer Engineering Technician
+        in Northern college and learning alot about creating more interesting and lucrative websites. Apart from these i am also learning about system security.
+      </p>
+      <img src="images/about.jpg" style="max-width: 40%; height: auto;">
+        <img src="images/about1.jpg" style="max-width: 40%; height: auto;">
+    </section>
+    <section id="background">
+      <h2>Background</h2>
+      <p>I dont hold any degree but i had completed my higher studies in the feild of science where I also opted computer as a subject where I had learnt about different languages like java , python and HTML and i think thats why
+        i got my keen interest in learning more about these languages and crteating websites. Although I am trying to improve my skills of these languages so that i can do more in future. My educational background has equipped me with the skills necessary to create dynamic and user-friendly websites.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>I am proficient in HTML, CSS, JavaScript, and other IT skills. I have a keen eye for design and enjoy bringing creative ideas to life through code. I know i am not perfect but i am learning day by day so that i could do my best.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Here are some of the IT projects I've worked on:</p>
+      <ul>
+        <li>Project 1:Telling the truth that I did not made any excellent project that i can show curtrently. But I made a website about festivals that was quite impressive. </li>
+        <li><a href="index.html">Wanna see click here ...</a></li>
+        <!-- Add more projects as needed -->
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>If you're interested in collaborating or have any inquiries, feel free to contact me using the form below:</p>
+      <form action="submit.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
